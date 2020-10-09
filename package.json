@@ -14,7 +14,8 @@
     "build:js:cjs": "tsc -p tsconfig.cjs.json",
     "build:js:esm": "tsc -p tsconfig.esm.json",
     "clean": "run-p clean:dist",
-    "clean:dist": "rimraf dist"
+    "clean:dist": "rimraf dist",
+    "prepublishOnly": "run-s build"
   },
   "repository": {
     "type": "git",
