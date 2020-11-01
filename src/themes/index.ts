@@ -1,1 +1,1 @@
-export { Font, Theme } from './interface';
+export { Font, Palette, Theme } from './interface';
