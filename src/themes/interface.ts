@@ -6,34 +6,26 @@ export interface Font {
     letter_spacing: string;
 }
 
+export interface Palette {
+    color: string;
+    text_color: string;
+    border_color: string;
+    hover_color: string;
+}
+
 export interface Theme {
     palette: {
         type: 'dark' | 'light';
-        color: {
-            primary: string;
-            primary_variant: string;
-            secondary: string;
-            secondary_variant: string;
-        };
-        surfaces: {
-            background: string;
-            surface: string;
-        };
-        states: {
-            error: string;
-            warning: string;
-            info: string;
-            success: string;
-        };
-        content: {
-            on_primary: string;
-            on_secondary: string;
-            on_surface: string;
-            on_error: string;
-            on_warning: string;
-            on_info: string;
-            on_success: string;
-        };
+        primary: Palette;
+        primary_variant: Palette;
+        secondary: Palette;
+        secondary_variant: Palette;
+        error: Palette;
+        warning: Palette;
+        info: Palette;
+        success: Palette;
+        background: Palette;
+        surface: Palette;
         charts: {
             color1: string;
             color2: string;
