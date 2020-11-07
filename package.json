@@ -1,6 +1,6 @@
 {
   "name": "@fracturedgraphics/bellwether-styles",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Style and theme package for the bellwether library.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,8 +19,7 @@
     "clean": "run-p clean:dist",
     "clean:dist": "rimraf dist",
     "lint": "eslint src/** --fix",
-    "prepublishOnly": "run-s build",
-    "postinstall": "rimraf node_modules/@types/react-native"
+    "prepublishOnly": "run-s build"
   },
   "repository": {
     "type": "git",
