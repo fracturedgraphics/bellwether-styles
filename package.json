@@ -1,6 +1,6 @@
 {
   "name": "@fracturedgraphics/bellwether-styles",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Style and theme package for the bellwether library.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
