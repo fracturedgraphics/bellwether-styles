@@ -1,6 +1,6 @@
 {
   "name": "@fracturedgraphics/bellwether-styles",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Style and theme package for the bellwether library.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -33,10 +33,6 @@
   },
   "homepage": "https://github.com/fracturedgraphics/bellwether-styles#readme",
   "peerDependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "styled-components": "^5.2.1",
-    "@types/styled-components": "^5.1.4",
     "typescript": "^4.0.3"
   },
   "devDependencies": {
@@ -47,7 +43,6 @@
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
-    "@types/styled-components": "^5.1.4",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
     "eslint": "^7.11.0",
@@ -55,10 +50,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.1.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
-    "styled-components": "^5.2.1",
     "typescript": "^4.0.3"
   }
 }
