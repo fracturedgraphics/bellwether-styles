@@ -19,8 +19,7 @@
     "clean": "run-p clean:dist",
     "clean:dist": "rimraf dist",
     "lint": "eslint src/** --fix",
-    "prepublishOnly": "run-s build",
-    "postinstall": "rimraf node_modules/@types/react-native"
+    "prepublishOnly": "run-s build"
   },
   "repository": {
     "type": "git",
