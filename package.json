@@ -32,9 +32,6 @@
     "url": "https://github.com/fracturedgraphics/bellwether-styles/issues"
   },
   "homepage": "https://github.com/fracturedgraphics/bellwether-styles#readme",
-  "peerDependencies": {
-    "typescript": "^4.0.3"
-  },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
