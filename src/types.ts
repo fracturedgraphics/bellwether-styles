@@ -1,19 +1,19 @@
-export interface Font {
+export type Font = {
     family: string;
     weight: number;
     size: string;
     line_height: number;
     letter_spacing: string;
-}
+};
 
-export interface Palette {
+export type Palette = {
     color: string;
     text_color: string;
     border_color: string;
     hover_color: string;
-}
+};
 
-export interface Theme {
+export type Theme = {
     palette: {
         type: 'dark' | 'light';
         primary: Palette;
@@ -49,4 +49,4 @@ export interface Theme {
         caption: Font;
         overline: Font;
     };
-}
+};
